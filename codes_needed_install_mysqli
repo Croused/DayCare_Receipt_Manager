@@ -1,0 +1,2 @@
+docker exec -it daycarereceipt_php_1 docker-php-ext-install mysqli
+docker exec -it daycarereceipt_php_1 docker-php-ext-install pdo_mysql

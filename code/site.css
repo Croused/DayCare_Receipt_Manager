@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(150,150,150);
+}
+
+
+table, tr, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center ;
+    background-color: rgb(175, 175, 175);
+}
+
+#storeTotalDiv{
+    width: 25em;
+    margin-top: 1em;
+ 
+}
+#storeTotalsTable{
+    width: 100%;
+}
+#storeTotalDateCol{
+    width:5em;
+}
+#storeTotalCostCol{
+    width:6em
+}
+
+
+#itemsDiv{
+    margin-top: 1em;
+    width: 40em;
+    
+}
+
+#itemTable{
+    width: 100%;
+}
+
+#itemDateCol{
+    width: 5em;
+}
+
+#itemStoreCol{
+   width: 12em;
+}
+#itemNameCol{
+    width:11em;
+}
+#itemCostCol{
+    width: 5em;
+}
+#itemTypeCol{
+    width: 7em;
+}
+
+#formDiv{
+    border: 1px solid;
+    width: 20em;
+}
+
+
+form{
+    display:grid;
+    grid-template-columns: 25% 75%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#dateLbl, #storeNameLbl, #itemNameLbl, #itemCostLbl, #itemTypeLbl{
+    grid-column: 1/2;
+    text-align: right;
+    padding-right: 0.3em;
+}
+
+#dateInput, #storeNameInput, #itemNameInput, #itemCostInput, #itemTypeInput{
+    grid-column: 2/3;
+}
+
+#receiptDate, #storeName, #itemName, #itemCost, #itemType{
+    width: 90%;
+    text-align:center;
+}
+
+#commentsLbl, #commentsInput, #buttonDiv{
+    grid-column: 1/3;
+    width: 100%;
+    text-align: center;
+}
+
+#commentsLbl{
+    margin-top: 1em;
+}
+
+#comments{
+    width: 87%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#buttonDiv{
+
+    margin-top: 1em;
+
+}
